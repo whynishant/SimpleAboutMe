@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reading — Nishant</title>
+  <meta name="description" content="Books and philosophy shaping Nishant's thinking on art, craft, discipline, and building.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-container">
+    <header class="site-header">
+      <a href="index.html" class="brand-title">Nishant</a>
+      <nav class="site-nav">
+        <a href="photos.html">Photos</a>
+        <a href="writing.html">Writing</a>
+        <a href="reading.html" class="active">Reading</a>
+        <a href="work.html">Work</a>
+        <!-- <a href="products.html">Products</a> -->
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Reading</h1>
+
+      <div class="filter-wrapper">
+        <div class="pill-group">
+          <button class="pill-btn active" data-filter="all">All</button>
+          <button class="pill-btn" data-filter="reading">Reading</button>
+          <button class="pill-btn" data-filter="read">Read</button>
+        </div>
+        <div class="filter-dates">
+          <span>Years</span>
+          <span>Months</span>
+          <span class="active">All</span>
+        </div>
+      </div>
+
+      <div class="book-grid">
+        <div class="book-card" data-category="reading">
+          <div class="book-cover">
+            <span class="book-badge">reading</span>
+            <img src="./images/41881472.JPG" alt="Mastery by Robert Greene" loading="lazy">
+          </div>
+          <div class="book-info">
+            <h3>The Psychology Of Money</h3>
+            <p>Morgan Housel</p>
+          </div>
+        </div>
+
+        <div class="book-card" data-category="read">
+          <div class="book-cover">
+            <img src="./images/atomic.jpg" alt="Atomic Habits by James Clear" loading="lazy">
+          </div>
+          <div class="book-info">
+            <h3>Atomic Habits</h3>
+            <p>James Clear</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      &copy; <span class="current-year">2026</span> Nishant
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

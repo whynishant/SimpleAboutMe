@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photos — Nishant</title>
+  <meta name="description" content="Visual glimpses into Nishant's life, engineering routine, filming sets, and creative sketches.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-container">
+    <header class="site-header">
+      <a href="index.html" class="brand-title">Nishant</a>
+      <nav class="site-nav">
+        <a href="photos.html" class="active">Photos</a>
+        <a href="writing.html">Writing</a>
+        <a href="reading.html">Reading</a>
+        <a href="work.html">Work</a>
+        <!-- <a href="products.html">Products</a> -->
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="page-title">Photos</h1>
+
+      <div class="filter-wrapper">
+        <div class="pill-group">
+          <button class="pill-btn active" data-filter="all">All</button>
+          <button class="pill-btn" data-filter="life">Life</button>
+          <button class="pill-btn" data-filter="sketches">Creative</button>
+        </div>
+        <div class="filter-dates">
+          <span>Years</span>
+          <span>Months</span>
+          <span class="active">All</span>
+        </div>
+      </div>
+
+      <div class="photo-grid">
+        <div class="photo-card" data-category="life">
+          <img src="./images/IMG_3349.JPG" alt="Writing desk setup" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="bts">
+          <img src="./images/cinematic1.JPG" alt="Video recording setup" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="life">
+          <img src="./images/IMG_3020.jpg" alt="College engineering discussion" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="sketches">
+          <img src="./images/IMG_2148.jpg" alt="Artwork and sketches" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="life">
+          <img src="./images/IMG_2117.JPG" alt="Coding projects" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="bts">
+          <img src="./images/IMG_1855.JPG" alt="Shooting with camera in Noida" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="sketches">
+          <img src="./images/IMG_1781.JPG" alt="Book reading and thoughts" loading="lazy">
+        </div>
+        <div class="photo-card" data-category="life">
+          <img src="./images/IMG_1710.JPG" alt="Notebook journaling" loading="lazy">
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      &copy; <span class="current-year">2026</span> Nishant
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
